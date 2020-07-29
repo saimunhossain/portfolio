@@ -11,7 +11,7 @@ export default class Header extends Component {
                             <nav className="navbar navbar-expand-lg navbar-light">
                                 <div className="container box_1620">
                                     {/* <!-- Brand and toggle get grouped for better mobile display --> */}
-                                    <a className="navbar-brand logo_h" href="index.html"><img src="assets/img/logo.png" alt="" /></a>
+                                    <Link className="navbar-brand logo_h" to="/"><img src="assets/img/logo.png" alt="" /></Link>
                                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                         <span className="icon-bar"></span>
                                         <span className="icon-bar"></span>
