@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom'
 
 export default class About extends Component {
     render() {
@@ -12,8 +13,8 @@ export default class About extends Component {
                                         <div className="banner_content text-center">
                                             <h2>About Me</h2>
                                             <div className="page_link">
-                                                <a href="index.html">Home</a>
-                                                <a href="about-us.html">About Me</a>
+                                                <Link to="/">Home</Link>
+                                                <Link href="/about">About Me</Link>
                                             </div>
                                         </div>
                                     </div>

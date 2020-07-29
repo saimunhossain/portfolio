@@ -22,7 +22,7 @@ export default class Header extends Component {
                                         <ul className="nav navbar-nav menu_nav ml-auto">
                                             <li className="nav-item active"><Link className="nav-link" to="/">Home</Link></li> 
                                             <li className="nav-item"><Link className="nav-link" to="/about">About</Link></li> 
-                                            <li className="nav-item"><a className="nav-link" href="services.html">Services</a></li> 
+                                            <li className="nav-item"><Link className="nav-link" to="/service">Services</Link></li> 
                                             <li className="nav-item submenu dropdown">
                                                 <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
                                                 <ul className="dropdown-menu">
