@@ -5,6 +5,7 @@ import About from './pages/About'
 import Service from './pages/Service'
 import Portfolio from './pages/Portfolio'
 import Blog from './pages/Blog'
+import BlogDetail from './pages/BlogDetail'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import {BrowserRouter as Router,Route,Switch } from 'react-router-dom'
@@ -20,6 +21,7 @@ function App() {
             <Route exact path='/service' component={Service}/>
             <Route exact path='/portfolio' component={Portfolio}/>
             <Route exact path='/blog' component={Blog}/>
+            <Route exact path='/blogdetail' component={BlogDetail}/>
           </Switch>
         <Footer/>
       </Router>
