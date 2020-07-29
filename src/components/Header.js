@@ -23,13 +23,7 @@ export default class Header extends Component {
                                             <li className="nav-item active"><Link className="nav-link" to="/">Home</Link></li> 
                                             <li className="nav-item"><Link className="nav-link" to="/about">About</Link></li> 
                                             <li className="nav-item"><Link className="nav-link" to="/service">Services</Link></li> 
-                                            <li className="nav-item submenu dropdown">
-                                                <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
-                                                <ul className="dropdown-menu">
-                                                    <li className="nav-item"><a className="nav-link" href="portfolio.html">Portfolio</a></li>
-                                                    <li className="nav-item"><a className="nav-link" href="elements.html">Elements</a></li>
-                                                </ul>
-                                            </li> 
+                                            <li className="nav-item"><Link className="nav-link" to="/portfolio">Portfolio</Link></li> 
                                             <li className="nav-item submenu dropdown">
                                                 <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
                                                 <ul className="dropdown-menu">
